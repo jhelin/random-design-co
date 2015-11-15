@@ -183,17 +183,10 @@ h2 {
 	background-color: #fff;
 }
 .about {
-	padding: 1em;
+	padding: 2em 1em;
 	clear: both;
 }
-
-.project-text{
-	position: absolute;
-	top: 50%;
-	left: 50%%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-}	
+	
 
 h4 {
 	font-size:1.3em;
