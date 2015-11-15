@@ -100,7 +100,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-html {
+* {box-sizing: border-box;
 	
 }
 
@@ -138,28 +138,25 @@ i{
 
 img {
 	max-width: 100%;
-	z-index:-1;
+	
 }
 
 .callout {
-	padding: 0;
-	position: relative;
-	border:1px solid green;
+	position: relative; 
 	clear: both;
-	max-height: 30em;
 }
 
 .backroundimage {
     display: block;
-    width: 100%;
     position: relative;
-
+	z-index:-10;
+	width: 100
 }
 
 .callout-content {
 	position: absolute;
 	top: 30%;
-	left: 25%;
+	left: 30%;
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
@@ -177,6 +174,7 @@ h2 {
 	font-weight: lighter;	
 	border: 3px solid #fff;
 	text-decoration: none;
+	margin:0;
 }
 .button:hover{
 	color: #000;
@@ -198,11 +196,12 @@ p {
 
 .projects {
 	border-top: 2px solid #d6d6d3;
-	border-bottom:  2px solid #d6d6d3;
+	padding: 1em 0em;	
 }
 
 .projectscontent{
-	padding: 1em;
+	padding: 2em;
+	float: left;
 }
 
 .projects div {
@@ -240,10 +239,11 @@ p {
 
 
 footer {
+	border-top: 2px solid #d6d6d3;;
 	text-align: center;
 	clear: both;
-	border: 1px solid pink;
 	padding: 1em;
+	font-size: 1.3em;
 }
 
 
